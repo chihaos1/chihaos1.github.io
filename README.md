@@ -20,16 +20,23 @@ Analyzed the statistics of English Premier League teams from the past 28 years t
 * Deployed the model on the web API using Heroku. 
 
 # Machine Learning Projects
-Notebooks that centered on analyzing datasets with various regression and classification techniques.
 
 **Regression Problems:**
 
-[**House Price Prediction**](https://nbviewer.jupyter.org/github/chihaos1/Notebooks/blob/main/house-price-prediction.ipynb)\
+[**House Price Prediction**](https://nbviewer.jupyter.org/github/chihaos1/chihaos1.github.io/blob/main/Notebooks/house-price-prediction.ipynb)\
 Dataset from a competition on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview). The goal of the project was to predict house prices based on 76 house features such as total living area and number of bedrooms. The data wrangling process involved filling missing values and transforming features. The data analysis process involved visualizing the relationships between features and target and then selecting the relevant features. The model training process involved building a linear regression model that could predict house prices with the given parameters. 
 
 **Classification Problems:**
 
-[**Student Achievement Rating Prediction**](https://nbviewer.jupyter.org/github/chihaos1/Notebooks/blob/main/student-achievement-rating-prediction.ipynb)\
+[**Student Achievement Rating Prediction**](https://nbviewer.jupyter.org/github/chihaos1/chihaos1.github.io/blob/main/Notebooks/student-achievement-rating-prediction.ipynb)\
 Dataset from [NYC Open Data](https://data.cityofnewyork.us/Education/2017-2018-School-Quality-Reports-Elem-Middle-K-8/g6v2-wcvk). The goal of the project was to predict the student achievement rating (Not Meeting Target, Meeting Target, Approaching Target, and Exceeding Target) of a particular school based on 25 school features such as student attendance rate and economic need index. The data wrangling process involved encoding and scaling the features. The model training process involved building a k-nearest neighbors algorithm that could classify student achievement ratings based on the given parameters.
 
-[**White Wine Quality Prediction**]()
+[**White Wine Quality Prediction**](https://nbviewer.jupyter.org/github/chihaos1/chihaos1.github.io/blob/main/Notebooks/white-wine-quality-prediction.ipynb)\
+Dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality). The goal of the project was to predict the quality (score between 0 to 10) of white wines based on 11 features such as pH, density, and residual sugar. The project employed several machine learning (logistic regression, decision tree, XGBoost) and deep learning techniques to compared their performances. The one with the highest cross validation score was logistic regression.
+
+# Deep Learning Projects
+
+**Convolutional Neural Network:**
+
+[**President Image Identifier**](https://github.com/chihaos1/President-Image-Identifier) &nbsp;&nbsp;&nbsp; [Notebook Link](https://nbviewer.jupyter.org/github/chihaos1/President-Image-Identifier/blob/main/President%20Image%20Identifier.ipynb)\
+Dataset scrapped from [Getty Image](https://www.gettyimages.com/) using the ImagePipeline provided in Scrapy. The goal of the project was to build an algorithm that could identify Barack Obama, Donald Trump, and Joe Biden from the provided images. Image augmentation was used to expand training dataset and to make the model more robust. ResNet50 and VGG16 were both employed and compared and it was tested that VGG16 had better performance. 
