@@ -25,9 +25,11 @@ Notebooks that centered on analyzing datasets with various regression and classi
 **Regression Problems:**
 
 [**House Price Prediction**](https://nbviewer.jupyter.org/github/chihaos1/Notebooks/blob/main/house-price-prediction.ipynb)\
-Dataset from a competition on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview). The goal of the project was to predict house prices based on 77 house features such as total living area and number of bedrooms. The data wrangling process involved filling missing values and transforming features. The data analysis process involved visualizing the relationships between features and target and selecting the relevant features. The model training process involved building a linear regression model that could predict house prices with the given parameters. 
+Dataset from a competition on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview). The goal of the project was to predict house prices based on 76 house features such as total living area and number of bedrooms. The data wrangling process involved filling missing values and transforming features. The data analysis process involved visualizing the relationships between features and target and then selecting the relevant features. The model training process involved building a linear regression model that could predict house prices with the given parameters. 
 
 **Classification Problems:**
 
 [**Student Achievement Rating Prediction**](https://nbviewer.jupyter.org/github/chihaos1/Notebooks/blob/main/student-achievement-rating-prediction.ipynb)\
+Dataset from [NYC Open Data](https://data.cityofnewyork.us/Education/2017-2018-School-Quality-Reports-Elem-Middle-K-8/g6v2-wcvk). The goal of the project was to predict the student achievement rating (Not Meeting Target, Meeting Target, Approaching Target, and Exceeding Target) of a particular school based on 25 school features such as student attendance rate and economic need index. The data wrangling process involved encoding and scaling the features. The model training process involved building a k-nearest neighbors algorithm that could classify student achievement ratings based on the given parameters.
 
+[**White Wine Quality Prediction**]()
