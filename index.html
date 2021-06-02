@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<body>
-	<div class="container">
+    <body>
         <h1>Data Science Portfolio by Chi-Hao Sheng</h1>
             <p>A collection of projects ranging from data collection to model deployment that utilized various machine learning and deep learning techniques.</p>
             <h2>End-to-End Projects</h2>
@@ -11,12 +10,63 @@ layout: default
                     <span style="margin-right: 30px;"><a href="https://github.com/chihaos1/Battlefield-V-Analysis-and-Prediction">Battlefield V Analysis and Prediction</a></span>
                     <a href="https://battlefieldv-stats-prediction.herokuapp.com/">Final Website Link</a>
                 </h3>
+                    <p>
+                        Analyzed players' statistics to evaluate players' performance by predicting their Score Per Minute (SPM).
+                    </p>
+                    <ul>
+                        <li>Scrapped over 18,000 player statistics from <a href="https://battlefieldtracker.com/">Battlefield Tracker</a> using Python and Scrapy.</li>
+                        <li>Used data wrangling techniques to clean the collected data.</li>
+                        <li>Created a linear regression model (MAE ~ 40 SPM) to predict player's Score Per Minute.</li>
+                        <li>Built a web API using Flask with data visualization graphed by Chart.js.</li>
+                        <li>Deployed the model on the web API using Heroku.</li>
+                    </ul>
+                
+                    <h3>
+                        <span style="margin-right: 40px;"><a href="https://github.com/chihaos1/Premier-League-Position-Prediction">Premier League Position Prediction</a></span>
+                        <a href="https://plposprediction-api.herokuapp.com/">Final Website Link</a>
+                    </h3>
+                    <p>
+                        Analyzed the statistics of English Premier League teams from the past 28 years to predict the position they would be able to achieve at the end of the season.
+                    </p>
+                    <ul>
+                        <li>Scrapped about 500 team statistics from <a href="https://en.wikipedia.org/wiki/1992%E2%80%9393_FA_Premier_League#League_table">Wikipedia</a> using Python and Scrapy.</li>
+                        <li>Created a linear regression model (MAE ~ 1 Position) to predict a team's league position.</li>
+                        <li>Built a web API using Flask.</li>
+                        <li>Deployed the model on the web API using Heroku.</li>
+                    </ul>
+            <hr style="border-top: 1px dashed;">
+            <h2>Machine Learning Projects</h2>
+                <p style="font-weight: bold;">Regression Problems:</p>
+                <h3><a href="https://nbviewer.jupyter.org/github/chihaos1/chihaos1.github.io/blob/main/Notebooks/house-price-prediction.ipynb">House Price Prediction</a></h3>
+                    <p>Dataset from a competition on <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview">Kaggle</a>. 
+                       The goal of the project was to predict house prices based on 76 house features such as total living area and number of bedrooms. 
+                       The data wrangling process involved filling missing values and transforming features. The data analysis process involved visualizing 
+                       the relationships between features and target and then selecting the relevant features. The model training process involved building a 
+                       linear regression model that could predict house prices with the given parameters.</p>
 
-
-                    
+                <p style="font-weight: bold;">Classification Problems:</p>
+                <h3><a href="https://nbviewer.jupyter.org/github/chihaos1/chihaos1.github.io/blob/main/Notebooks/student-achievement-rating-prediction.ipynb">Student Achievement Rating Prediction</a></h3>
+                    <p>Dataset from <a href="https://data.cityofnewyork.us/Education/2017-2018-School-Quality-Reports-Elem-Middle-K-8/g6v2-wcvk">NYC Open Data</a>. 
+                       The goal of the project was to predict the student achievement rating (Not Meeting Target, Meeting Target, Approaching Target, and Exceeding Target) 
+                       of a particular school based on 25 school features such as student attendance rate and economic need index. The data wrangling process involved encoding 
+                       and scaling the features. The model training process involved building a k-nearest neighbors algorithm that could classify student achievement ratings based 
+                       on the given parameters.</p>
+                
+                <h3><a href="https://nbviewer.jupyter.org/github/chihaos1/chihaos1.github.io/blob/main/Notebooks/white-wine-quality-prediction.ipynb">White Wine Quality Prediction</a></h3>
+                    <p>Dataset from <a href="https://archive.ics.uci.edu/ml/datasets/wine+quality">UCI Machine Learning Repository</a>. The goal of the project was to predict 
+                       the quality (score between 0 to 10) of white wines based on 11 features such as pH, density, and residual sugar. The project employed several machine 
+                       learning (logistic regression, decision tree, XGBoost) and deep learning techniques to compared their performances. The one with the highest cross validation 
+                       score was logistic regression.</p>
             
-
-	</div>
-	
-</body>
+            <hr style="border-top: 1px dashed;">
+            <h2>Deep Learning Projects</h2>
+                <p style="font-weight: bold;">Convolutional Neural Network:</p>
+                <h3>
+                    <span style="margin-right: 30px;"><a href="https://github.com/chihaos1/President-Image-Identifier">President Image Identifier</a></span>
+                    <a href="https://nbviewer.jupyter.org/github/chihaos1/President-Image-Identifier/blob/main/President%20Image%20Identifier.ipynb">Notebook Link</a>
+                </h3>
+                <p>Dataset scrapped from <a href="https://www.gettyimages.com/">Getty Image</a> using the ImagePipeline provided in Scrapy. The goal of the project was to build an algorithm that could identify Barack Obama, 
+                   Donald Trump, and Joe Biden from the provided images. Image augmentation was used to expand training dataset and to make the model more robust. ResNet50 and VGG16 
+                   were both employed and compared and it was tested that VGG16 had better performance.</p>
+    </body>
 
