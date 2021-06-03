@@ -40,3 +40,11 @@ Dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/da
 
 [**President Image Identifier**](https://github.com/chihaos1/President-Image-Identifier) &nbsp;&nbsp;&nbsp; [Notebook Link](https://nbviewer.jupyter.org/github/chihaos1/President-Image-Identifier/blob/main/President%20Image%20Identifier.ipynb)\
 Dataset scrapped from [Getty Image](https://www.gettyimages.com/) using the ImagePipeline provided in Scrapy. The goal of the project was to build an algorithm that could identify Barack Obama, Donald Trump, and Joe Biden from the provided images. Image augmentation was used to expand training dataset and to make the model more robust. ResNet50 and VGG16 were both employed and compared and it was tested that VGG16 had better performance. 
+
+# School Projects
+
+[**Budget Calculator**](https://github.com/chihaos1/budget_calculator)\
+Final group project for INST326: Object-Oriented Programming. The program could track users' budget and provide financial advices such as how to improve credit scores and manage savings. The project utilized the object-oriented concept to structure the codes into classes and methods, which was beneficial for developing and debugging the program.  
+
+[**Vinyl Record Database**](https://github.com/DiegoAmores/Vinyl-Record-Database)\
+Final group project for INST327: Database Design and Modeling. The database contained detailed information of 20 vinyl records such as producers, ratings, and chart placements. The process of building the database involved creating and populating tables, modeling relationships between tables, and normalizing the database to optimize performance.
